@@ -1,0 +1,70 @@
+.speech{
+    font-family : "Times New Roman",Times,serif;
+    font-size : 16px;
+    color:black;
+}
+
+.direction{
+    font-family : "Arial",sans-serif;
+    font-size : 18px;
+    color:black;
+    background-color: lightblue;
+    transition: background-color 0.1s, color 0.1s;
+}
+
+.direction:hover{
+    background-color: lightgreen;
+    color: white;
+}
+
+.ELVSTED{
+    color:blue;
+}
+
+.BERTA{
+    color:blueviolet;
+}
+
+.HEDDA{
+    color:brown;
+}
+
+:root {
+    --table-border: 1px solid black;
+    --table-padding: 16px;
+    --table-bg-even: rgba(247, 5, 45, 0.913);
+    --table-bg-header: #f70909;
+    --table-color-header: rgb(17, 57, 96);
+  }
+  
+  /* This style is for table properties */
+  :root {
+    --table-border: 2px solid black;
+    --table-padding: 16px;
+    --table-bg-even: rgba(214, 216, 116, 0.783);
+    --table-bg-header: #ff00ee29;
+    --table-color-header: rgb(0, 60, 255);
+  }
+  
+  table, th, td {
+    border: var(--table-border);
+    text-align: center !important;
+  }
+  
+  table {
+    width: 40%;
+    margin: 5px;
+  }
+  
+  th, td {
+    padding: var(--table-padding);
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--table-bg-even);
+  }
+  
+  th {
+    background-color: var(--table-bg-header);
+    color: var(--table-color-header);
+  }

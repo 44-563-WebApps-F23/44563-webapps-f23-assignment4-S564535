@@ -111,17 +111,17 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #d62929;
+    background-color: #320be1;
   }
   
   li {
     float: left;
   }
   .img{
-    width: 150px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
     margin-top: 30px;
-  margin-bottom: 11px;
-    margin-right: 100px;
-   margin-left: 80px;
+    margin-bottom: 11px;
+    margin-right: 80px;
+    margin-left: 80px;
   }

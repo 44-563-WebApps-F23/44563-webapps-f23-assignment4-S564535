@@ -68,3 +68,60 @@
     background-color: var(--table-bg-header);
     color: var(--table-color-header);
   }
+
+  .ELVSTED:hover{
+        
+    color: rgb(18, 240, 103);
+    text-shadow:3px 2px 3px rgb(45, 149, 74);
+    background-color:rgb(202, 189, 14);
+    
+   
+  }
+  
+  .BERTA:hover{
+    color:  rgb(18, 240, 103);
+    text-shadow:3px 2px 3px rgb(31, 148, 49);
+    background-color:rgb(134, 126, 7);
+  }
+
+  .HEDDA:hover{
+    color: rgb(18, 240, 103);
+    text-shadow:3px 2px 3px rgb(45, 161, 66);
+    background-color:rgb(138, 130, 18);
+  }
+
+
+  .navbar-horizontal{
+    padding: 15px;
+    float:left;
+    background-color:black;
+    color:black;
+    display:block;
+    
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d62929;
+  }
+  
+  li {
+    float: left;
+  }
+  .img{
+    width: 150px;
+    height: 200px;
+    margin-top: 30px;
+  margin-bottom: 11px;
+    margin-right: 100px;
+   margin-left: 80px;
+  }
